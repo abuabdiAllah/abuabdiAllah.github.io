@@ -24,3 +24,67 @@ nav a:hover {
 .section {
   margin-bottom: 50px;
 }
+
+body {
+  background-color: #f9fafb;
+  color: #1f2933;
+}
+
+nav {
+  background-color: #0f172a;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+nav a {
+  color: #e5e7eb;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+.banner {
+  background-color: #facc15;
+  color: #1f2933;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.hero {
+  background-color: #e0f2fe;
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+}
+
+h1 {
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+h2, h3 {
+  color: #1e293b;
+}
+
+p {
+  color: #334155;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.page-title {
+  border-left: 6px solid #38bdf8;
+  padding-left: 15px;
+  margin-bottom: 30px;
+}
