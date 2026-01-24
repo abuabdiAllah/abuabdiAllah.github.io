@@ -109,3 +109,35 @@ details p {
   color: #334155;
 }
 
+.recommendation-card {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: #f8fafc;
+  border-radius: 12px;
+  border-left: 5px solid #38bdf8;
+}
+
+.rec-author {
+  margin-top: 10px;
+  color: #475569;
+  font-weight: bold;
+}
+
+.pdf-list {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.pdf-list li {
+  margin-bottom: 10px;
+}
+
+.pdf-list a {
+  font-weight: bold;
+  color: #0284c7;
+}
+
+.pdf-list a:hover {
+  text-decoration: underline;
+}
+
