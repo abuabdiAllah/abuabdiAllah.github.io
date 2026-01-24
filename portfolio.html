@@ -15,10 +15,49 @@
 </nav>
 
 <div class="main">
-  <div class="section">
-    <h1 class="page-title">Portfolio</h1>
+  <h1 class="page-title">Portfolio</h1>
+
+  <label for="area"><strong>Select an area:</strong></label>
+  <select id="area" onchange="showSection()">
+    <option value="">-- Choose --</option>
+    <option value="swe">Software Engineering</option>
+    <option value="data">Data</option>
+    <option value="eng">Engineering</option>
+    <option value="gis">GIS</option>
+  </select>
+
+  <div id="swe" class="portfolio-section hidden">
+    <h3>Software Engineering</h3>
+    <p><em>Coming soon.</em></p>
+  </div>
+
+  <div id="data" class="portfolio-section hidden">
+    <h3>Data</h3>
+    <p><em>Coming soon.</em></p>
+  </div>
+
+  <div id="eng" class="portfolio-section hidden">
+    <h3>Engineering</h3>
+    <p><em>Coming soon.</em></p>
+  </div>
+
+  <div id="gis" class="portfolio-section hidden">
+    <h3>GIS</h3>
     <p><em>Coming soon.</em></p>
   </div>
 </div>
+
+<script>
+function showSection() {
+  const sections = document.querySelectorAll('.portfolio-section');
+  sections.forEach(section => section.classList.add('hidden'));
+
+  const selected = document.getElementById('area').value;
+  if (selected) {
+    document.getElementById(selected).classList.remove('hidden');
+  }
+}
+</script>
+
 </body>
 </html>
